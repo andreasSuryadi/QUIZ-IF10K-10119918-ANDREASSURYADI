@@ -10,19 +10,11 @@ package quizif10k10119918andreassuryadi;
  * @author andreas
  */
 public interface ServiceItem {
-    public void displayService() {
-        
-    }
+    public void displayService();
     
-    public float getPrice(int serviceItem) {
-        
-    }
+    public float getPrice(int serviceItem);
     
-    public boolean checkMemberStatus(String statusMember) {
-        
-    }
+    public boolean checkMemberStatus(String statusMember);
     
-    public float getSale(boolean isMember, float parServicePrice) {
-        
-    }
+    public float getSale(boolean isMember, float parServicePrice);
 }

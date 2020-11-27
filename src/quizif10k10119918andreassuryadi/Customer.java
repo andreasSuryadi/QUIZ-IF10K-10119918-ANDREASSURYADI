@@ -9,7 +9,7 @@ package quizif10k10119918andreassuryadi;
  *
  * @author andreas
  */
-public class Customer implements CustomerInvoice {
+public class Customer extends ServicePrice implements CustomerInvoice {
     private String name, email;
     private boolean member;
 
