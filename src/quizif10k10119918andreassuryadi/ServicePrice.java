@@ -29,7 +29,7 @@ public class ServicePrice implements ServiceItem {
         System.out.println("3. Hairwash Only : IDR 15K");
         System.out.println("3. Hairwash Only : IDR 15K");
         System.out.println("#*************************#");
-        System.out.println("Choose (1/2/3):");
+        System.out.print("Choose (1/2/3):");
     }
     
     public float getPrice(int serviceItem) {

@@ -39,6 +39,6 @@ public class Customer extends ServicePrice implements CustomerInvoice {
     
     @Override
     public String currentTime() {
-        
+         return "word";
     }
 }
