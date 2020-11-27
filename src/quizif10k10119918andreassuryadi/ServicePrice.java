@@ -10,5 +10,29 @@ package quizif10k10119918andreassuryadi;
  * @author andreas
  */
 public class ServicePrice {
+    private float priceService, discount;
+
+    public float getPriceService() {
+        return priceService;
+    }
+
+    public void setPriceService(float priceService) {
+        this.priceService = priceService;
+    }
     
+    public void getPrice(int serviceItem) {
+        
+    }
+    
+    public boolean checkMemberStatus(String statusMember) {
+        
+    }
+    
+    public float getSale(boolean isMember, float parServicePrice) {
+        
+    }
+    
+    public float getTotalPay(float priceService, float discount) {
+        
+    }
 }

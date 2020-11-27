@@ -10,5 +10,7 @@ package quizif10k10119918andreassuryadi;
  * @author andreas
  */
 public interface CustomerInvoice {
-    
+    public String currentTime() {
+        
+    }
 }
