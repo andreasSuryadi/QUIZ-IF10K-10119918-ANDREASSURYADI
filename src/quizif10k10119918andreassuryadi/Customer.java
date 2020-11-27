@@ -5,6 +5,9 @@
  */
 package quizif10k10119918andreassuryadi;
 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
 /**
  *
  * @author andreas
@@ -39,6 +42,19 @@ public class Customer extends ServicePrice implements CustomerInvoice {
     
     @Override
     public String currentTime() {
-         return "word";
+        int hari, detik, menit, jam, tanggal, bulan, tahun;
+        GregorianCalendar date = new GregorianCalendar();
+        String namaBulan[] = {"Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"};
+        String namaHari[] = {"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"};
+
+        detik = date.get(Calendar.SECOND);
+        menit = date.get(Calendar.MINUTE);
+        jam =  date.get(Calendar.HOUR_OF_DAY);
+        hari = date.get(Calendar.DAY_OF_WEEK);
+        tanggal = date.get(Calendar.DAY_OF_MONTH);
+        bulan = date.get(Calendar.MONTH);
+        tahun = date.get(Calendar.YEAR);
+        
+        return namaHari[hari] + ", " + tanggal + " " + namaBulan[bulan] + " " + tahun + " " + jam + ":" + menit + ":" + detik;
     }
 }

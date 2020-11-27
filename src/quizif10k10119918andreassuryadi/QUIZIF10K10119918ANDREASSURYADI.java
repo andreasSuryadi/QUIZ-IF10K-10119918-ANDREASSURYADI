@@ -34,7 +34,7 @@ public class QUIZIF10K10119918ANDREASSURYADI {
         
         System.out.println("====Program Kasir Rock n Roll Haircut====");
         System.out.print("Customer Name : ");
-        name = scanner.next();
+        name = scanner.nextLine();
         System.out.print("Customer Email : ");
         email = scanner.next();
         customer.displayService();

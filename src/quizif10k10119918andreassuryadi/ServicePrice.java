@@ -27,7 +27,6 @@ public class ServicePrice implements ServiceItem {
         System.out.println("1. Haircut : IDR 45K");
         System.out.println("2. Haircut + Hairwash: IDR 55K");
         System.out.println("3. Hairwash Only : IDR 15K");
-        System.out.println("3. Hairwash Only : IDR 15K");
         System.out.println("#*************************#");
         System.out.print("Choose (1/2/3):");
     }
